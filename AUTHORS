@@ -1,0 +1,12 @@
+A successor to libmbox or 'Virtual MBOX File System'[1] which is in a pre-alpha
+build and not been touched since 2005. None of the source code in this project
+is in anyway related to 'vfsmail'. There seems to be a libmbox4 [2] however
+I have no idea what it does, it's an opaque 'libmbox4.so' file and I don't
+quite have the appetite to link against it. Please add your name to the
+list :).
+
+[1] https://sourceforge.net/projects/vfsmail/
+[2] https://rpmfind.net/linux/rpm2html/search.php?query=libmbox4
+
+----
+James W M Barford-Evans

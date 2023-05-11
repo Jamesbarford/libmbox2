@@ -1,0 +1,17 @@
+ex.o: ex.c
+mbox-buf.o: mbox-buf.c mbox-buf.h macros.h mbox-logger.h
+mbox-date.o: mbox-date.c mbox-date.h
+mbox-io.o: mbox-io.c mbox-io.h mbox-buf.h macros.h mbox-msg.h \
+ mbox-logger.h
+mbox-list.o: mbox-list.c mbox-list.h
+mbox-msg.o: mbox-msg.c mbox-buf.h macros.h mbox-logger.h mbox-msg.h
+mbox-parser.o: mbox-parser.c macros.h mbox-buf.h mbox-date.h mbox-list.h \
+ mbox-logger.h mbox-msg.h mbox-parser.h mbox-redblacktree.h mbox-timing.h
+mbox-redblacktree.o: mbox-redblacktree.c mbox-buf.h macros.h \
+ mbox-redblacktree.h
+mbox-timing.o: mbox-timing.c mbox-timing.h
+mbox-worker.o: mbox-worker.c mbox-list.h mbox-logger.h mbox-worker.h
+mbox.o: mbox.c mbox-buf.h macros.h mbox-io.h mbox-msg.h mbox-list.h \
+ mbox-logger.h mbox-parser.h mbox-redblacktree.h mbox-worker.h mbox.h
+tests.o: tests.c mbox-buf.h macros.h mbox-date.h mbox-logger.h \
+ mbox-redblacktree.h

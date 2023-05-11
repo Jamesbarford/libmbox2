@@ -156,7 +156,7 @@ root canal. I'm many things, but a masochist isn't one of them.
 
 So I looked for tools of which I found mailutils which looks like it's geared
 towards low powered devices. I have a 16gb 2018 macbook pro with pthreads, not 
-a car stereo so wanted something with a bit more **oomph**!. I then found
+so wanted something with a bit more **oomph**!. I then found
 (libmbox)[https://sourceforge.net/p/vfsmail/code/] which
 hasn't been updated since 2004 and didn't offer the functionality I required nor
 speed for 5gb of files. It does however have a much simpler parser being about

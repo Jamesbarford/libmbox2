@@ -1,4 +1,4 @@
-# libmbox2 (WIP)
+# 📧 libmbox2 (WIP)
 - Handle file io
 - Can take a buf which is 1 mbox buffer and parse that into something meaningful
 - Can query the mbox file
